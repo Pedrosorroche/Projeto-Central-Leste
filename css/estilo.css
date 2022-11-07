@@ -23,11 +23,11 @@ a img:hover{
    	transform: scale(1.1);
 }
 
-.nav-item a{
+.nav-menu a{
 	color: #fff;
 }
 
-.nav-item a:hover{
+.nav-menu a:hover{
 	background: #fff;
 }
 
@@ -41,7 +41,10 @@ a img:hover{
 footer{
 	background: #03193e;
 	color: #fff;
-	
+}
+
+.nav a{
+	color:#fff;
 }
 
 #instagram {
@@ -51,7 +54,7 @@ footer{
     background: #03193e;
     color: white;
     margin: 0 3px;
-	border: 1px solid #fff;
+	border: 2px solid #fff;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
