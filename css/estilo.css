@@ -31,11 +31,34 @@ a img:hover{
 	background: #fff;
 }
 
+.navbar-toggler{
+    background-color: #1a5485;
+}
+
+#fundo-dropdown{
+	background:#1a5485;
+}
 footer{
-	position:relative;
-	height: 130px;
-	background: black;
-	bottom:0;
-	width:100%;
+	background: #03193e;
+	color: #fff;
 	
+}
+
+#instagram {
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    background: #03193e;
+    color: white;
+    margin: 0 3px;
+	border: 1px solid #fff;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    font-size: 40px;
+    text-decoration: none
+}
+#instagram:hover{
+    background:  #1a5485;
 }

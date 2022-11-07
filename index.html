@@ -14,40 +14,96 @@
     <title>Central Leste Ferragens</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar">
+    <header><!--Inicio Cabeçalho-->
+      <nav class="navbar navbar-expand-lg">
+        <!--Logo-->
         <a class="nav-brand" href="">
           <img src="imagens/logo.png" width="170px" height="150px">
         </a>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Produtos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
-            </li>
-        </ul>
 
+        <!--Menu Hamburguer-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+          <span class="navbar-toggler-icon"></span>
+       </button>
+
+       <!--Menu-->
+       <div class="collapse navbar-collapse justify-content-end">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Produtos
+                </a>
+                <div class="dropdown-menu" id="fundo-dropdown" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Abrasivos</a>
+                  <a class="dropdown-item" href="#">Elética</a>
+                  <a class="dropdown-item" href="#">Ferragens</a>
+                  <a class="dropdown-item" href="#">Fixação</a>
+                  <a class="dropdown-item" href="#">Hidráulica</a>
+                  <a class="dropdown-item" href="#">Iluminação</a>
+                  <a class="dropdown-item" href="#">Jardinagem</a>
+                  <a class="dropdown-item" href="#">Maquinário</a>
+                  <a class="dropdown-item" href="#">Pintura</a>
+                  <a class="dropdown-item" href="#">Utilidades</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+          </ul>
+        </div>
       </nav>
-
-
-    </header>
+    </header><!--Fim Cabeçalho-->
     
 
 
-    <footer>
-      <div>
+    <footer><!--Inicio Rodapé-->
+      <div class="container">
+        <div class="row pt-3 pb-5">
+            <section class="col-md-4 ">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="col-md-4">
+                <h4>Localização</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15355.253851966634!2d-48.1113517!3d-15.8137869!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2eaaa44d15295fd3!2sCentral%20Leste%20Ferragens!5e0!3m2!1spt-BR!2sbr!4v1667831276067!5m2!1spt-BR!2sbr" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section  class="col-md-4 ">
+                <h4>Acompanhe-nos:</h4>
+                <a id="instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <h6>Aberto de Segunda à Sexta das 08h às 18h</h6>
+                <h6>Aos Sábados 08h às 13h</h6>
+            </section>
+        </div>
 
-      </div>
-    </footer>
+
+        <section>
+            <div class="d-flex justify-content-center">
+                <h6>Central Leste Ferragens & Utilidades - Todos os direitos reservados &copy;</h6>
+            </div>
+            <div class="d-flex justify-content-center">
+                <h6>Criado por <a id="criado" href="https://www.linkedin.com/in/pedro-sorroche/" target="_blank">Pedro Sorroche</a></h6>
+            </div>
+        </section>
+    </div>
+    </footer><!--Final Rodapé-->
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1c45dec236.js" crossorigin="anonymous"></script>
   </body>
 </html>
