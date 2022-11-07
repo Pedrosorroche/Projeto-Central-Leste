@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar{
+	background: #1a5485;
+	height: 150px;
+
+}
+
+.navbar-brand{
+	overflow: hidden;
+}
+
+a img{
+   -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+
+a img:hover{
+	-webkit-transform: scale(1.1);
+   	transform: scale(1.1);
+}
+
+.nav-item a{
+	color: #fff;
+}
+
+.nav-item a:hover{
+	background: #fff;
+}
+
+footer{
+	position:relative;
+	height: 130px;
+	background: black;
+	bottom:0;
+	width:100%;
+	
+}
