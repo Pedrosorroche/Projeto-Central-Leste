@@ -3,10 +3,8 @@
 	padding: 0;
 }
 
-.navbar{
+.bg-color{
 	background: #1a5485;
-	height: 150px;
-
 }
 
 .navbar-brand{
@@ -29,15 +27,29 @@ a img:hover{
 
 .nav-menu a:hover{
 	background: #fff;
+    
 }
 
-.navbar-toggler{
-    background-color: #1a5485;
+.nav-link{
+    color: #fff;
+}
+
+.navbar-collapse{
+    
 }
 
 #fundo-dropdown{
 	background:#1a5485;
 }
+
+.carousel-inner{
+    height:15em;
+}
+
+#img1{
+    background-image: url(../imagens/1.jpg);
+}
+
 footer{
 	background: #03193e;
 	color: #fff;
