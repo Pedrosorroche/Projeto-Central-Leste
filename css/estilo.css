@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
@@ -17,8 +20,8 @@ a img{
 }
 
 a img:hover{
-	-webkit-transform: scale(1.1);
-   	transform: scale(1.1);
+	-webkit-transform: scale(1.2);
+   	transform: scale(1.2);
 }
 
 .nav-menu a{
@@ -26,17 +29,12 @@ a img:hover{
 }
 
 .nav-menu a:hover{
-	background: #fff;
+	background-color: #fff;
+    color: #1a5485;
     
 }
 
-.nav-link{
-    color: #fff;
-}
 
-.navbar-collapse{
-    
-}
 
 #fundo-dropdown{
 	background:#1a5485;
@@ -48,6 +46,12 @@ a img:hover{
 
 #img1{
     background-image: url(../imagens/1.jpg);
+}
+
+#marcas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 footer{
